@@ -61,7 +61,7 @@ nav nav-logo {
   background-position: 0%;
   height: 100vh;
 }
-nav nav-logo svg {
+nav svg {
   position: absolute;
   top: 2%;
   margin-top: 2px;
