@@ -8,7 +8,8 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  height: 35px;
+  height: 40px;
+  padding: .2em 2em;
   background-color: #1c2f2f;
 }
 
@@ -76,6 +77,7 @@ nav a:hover {
     padding: 10px 50px;
     text-align: center;
     font-size: 14px;
+    font-family: "Arial";
 }
 
 .title {
@@ -83,6 +85,7 @@ nav a:hover {
     margin-top: 1em;
     margin-bottom: 1em;
     color: #262626;
+    font-family: "Arial";
 }
 
 .content {
@@ -101,7 +104,9 @@ nav a:hover {
 .result-label {
     margin-top: 0.5em;
     padding: 10px;
-    font-size: 13px;
+    font-size: 20px;
+    font-family: "Arial";
+    font-weight: bold;
 }
 
 button.choose-file-button {
@@ -110,20 +115,20 @@ button.choose-file-button {
     border-radius: 2px;
     background-color: #000000;
     background-image: linear-gradient(147deg, #000000 0%, #139292 74%);
-    border: solid 1px #7052CB;
+    border: solid 1px #000000;
     font-size: 13px;
-    color: #7052CB;
+    color: #FFFFFF;
 }
 
 button.analyze-button {
     width: 200px;
     height: 40px;
-    border: solid 1px #7052CB;
+    border: solid 1px #000000;
     border-radius: 2px;
     background-color: #000000;
     background-image: linear-gradient(147deg, #000000 0%, #139292 74%);
     font-size: 13px;
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
 button:focus {
