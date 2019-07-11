@@ -82,7 +82,7 @@ nav a:hover {
     background-image: url("../static/backgroundAsset1.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 100%;
 }
 
