@@ -80,7 +80,7 @@ nav a:hover {
     font-size: 14px;
     font-family: "Arial";
     background-image: url("../static/backgroundAsset1.png");
-    background-position: right;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
