@@ -70,3 +70,11 @@ image-picked {
     backgroun-position: center;
     background-size: contain;
 }
+
+canvas {
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    height: 500px;
+    backgroun-position: center;
+    background-size: contain;
+}
