@@ -9,6 +9,7 @@ nav {
   left: 0;
   width: 100%;
   height: 35px;
+  background-color: #1c2f2f;
 }
 
 nav ul {
@@ -16,6 +17,7 @@ nav ul {
   margin: 0;
   padding: .2em 2em;
   float: right;
+  background-color: #1c2f2f;
 }
 
 nav ul li {
@@ -106,7 +108,8 @@ button.choose-file-button {
     width: 200px;
     height: 40px;
     border-radius: 2px;
-    background-color: #ffffff;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #139292 74%);
     border: solid 1px #7052CB;
     font-size: 13px;
     color: #7052CB;
@@ -117,7 +120,8 @@ button.analyze-button {
     height: 40px;
     border: solid 1px #7052CB;
     border-radius: 2px;
-    background-color: #7052CB;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #139292 74%);
     font-size: 13px;
     color: #ffffff;
 }
