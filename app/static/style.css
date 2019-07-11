@@ -55,13 +55,13 @@ nav a:hover {
   transition: .45s ease-in-out;
 }
 
-.nav-logo {
+nav nav-logo {
   text-align: left;
   background-size: cover;
   background-position: 0%;
   height: 100vh;
 }
-.nav-logo svg {
+.svg {
   position: absolute;
   top: 2%;
   margin-top: 2px;
