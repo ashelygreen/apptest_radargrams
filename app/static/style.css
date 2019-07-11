@@ -73,14 +73,14 @@ nav a:hover {
 }
 
 .center {
-    margin: 125px 25px 10px;
+    margin: 125px 25px 0px;
     
     padding: 10px 50px;
     text-align: center;
     font-size: 14px;
     font-family: "Arial";
-    background-image: url("../static/backgroundAsset 1.png");
-    background-position: center;
+    background-image: url("../static/backgroundAsset 2.png");
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
