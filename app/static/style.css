@@ -1,6 +1,6 @@
 body {
     background-color: #fff;
-    background-image: url("../static/Background.jpg");
+    background-image: url("../static/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,7 +82,7 @@ nav a:hover {
     text-align: center;
     font-size: 14px;
     font-family: "Arial";
-    background-image: url("../static/Background.jpg");
+    background: url("../static/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
