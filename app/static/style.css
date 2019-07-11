@@ -55,6 +55,23 @@ nav a:hover {
   transition: .45s ease-in-out;
 }
 
+.nav-logo {
+  text-align: left;
+  background-size: cover;
+  background-position: 0%;
+  height: 100vh;
+}
+svg {
+  position: absolute;
+  top: 2%;
+  margin-top: 2px;
+  left: 1%;
+  margin-left: 1px;
+}
+
+
+
+
 .bg-hidden {
   top: -100%;
   opacity: 0;
