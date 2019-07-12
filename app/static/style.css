@@ -168,7 +168,7 @@ image-picked {
     border: 1px solid black;
     background-repeat: no-repeat;
     height: 500px;
-    backgroun-position: center;
+    background-position: center;
     background-size: contain;
 }
 
