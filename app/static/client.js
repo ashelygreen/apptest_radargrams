@@ -46,8 +46,8 @@ function analyze() {
             var h_mult = canvas.height / hw[0];
  
             ctx.rect(bbox[0]*w_mult, bbox[1]*h_mult, bbox[2]*w_mult, bbox[3]*h_mult);
-            ctx.strokeStyle = "red";
-            ctx.lineWidth = 3;
+            ctx.strokeStyle = "navy";
+            ctx.lineWidth = 2;
             ctx.stroke();
  
             el("result-label").innerHTML = `Grave detected with confidence ${prob.toFixed(4)}`;
