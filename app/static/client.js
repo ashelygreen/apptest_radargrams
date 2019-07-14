@@ -50,10 +50,10 @@ function analyze() {
             ctx.lineWidth = 2;
             ctx.stroke();
  
-            el("result-label").innerHTML = `Grave detected. Confidence of detection is ${prob.toFixed(4)}`;
+            el("result-label").innerHTML = `Grave detected. Confidence of detection is ${prob.toFixed(4)}.`;
         }
         else {
-            el("result-label").innerHTML = `No grave detected.  Confidence of detection is ${(1-prob).toFixed(4)}`;
+            el("result-label").innerHTML = `No grave detected.  Confidence of detection is ${(1-prob).toFixed(4)}.`;
         }
     }
     el('analyze-button').innerHTML = 'Analyze';
