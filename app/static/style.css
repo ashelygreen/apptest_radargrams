@@ -90,7 +90,7 @@ nav {
   transition: .45s ease-in-out;
 }
 
-nav nav-logo {
+.text {
   text-align: left;
   -webkit-text-stroke: 1px white;
   color: white;
@@ -100,7 +100,7 @@ nav nav-logo {
   height: 100vh;
 }
 
-nav svg {
+left svg {
   position: absolute;
   top: 2%;
   margin-top: 2px;
@@ -384,7 +384,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 
 
 
-nav h1{
+left h1{
   font-family: Cabin Condensed;
   font-size: 30px;
   font-style: italic;
@@ -392,7 +392,7 @@ nav h1{
   line-height: 1em;
   text-align: left;
   opacity: 0.7;
-  margin: -20px 0 0 350px;
+  margin: -50px 0 0 420px;
   
 }
 
@@ -429,3 +429,57 @@ h5{
   font-style: italic;
   text-align: center;
 }
+
+
+
+
+left {
+	font-size: 15px;
+  font-family: Arial;
+	text-align: center;
+	width: 10%;
+  margin: -30px 0 0px;
+  color: #fff;
+  line-height: 20px;
+  display: inline;
+  float: left;
+}
+
+right {
+	font-size: 15px;
+  font-family: Arial;
+	text-align: center;
+  width: 25%;
+	margin: -100px 25px 0px;
+  color: #fff;
+  line-height: 20px;
+  float: right;
+  display: inline;
+}
+
+
+
+.nav-bkgrnd {
+  width: 100%;
+  height: 130px;
+  background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+
+left body{
+  background-size:cover;
+  font-family: 'Cabin Condensed', sans-serif;
+  display:in-line;
+  flex-direction:column;
+  justify-content:left;
+  align-items:left;
+}
+
+left text{
+  text-shadow: 2px 2px #000000;
+}
+svg{font-weight:bold;max-width:700px;height:auto;}
