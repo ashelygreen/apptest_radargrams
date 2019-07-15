@@ -95,14 +95,13 @@ nav {
   -webkit-text-stroke: 1px white;
   color: white;
   text-shadow: 3px 3px 0 #ffffff, -1px -1px 0 #ffffff,   1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
-  background-size: cover;
   background-position: 0%;
-  height: 100vh;
+  height: 60px;
 }
 
 left svg {
   position: absolute;
-  top: 2%;
+  top: 0;
   margin-top: 2px;
   left: 1%;
   margin-left: 1px;
