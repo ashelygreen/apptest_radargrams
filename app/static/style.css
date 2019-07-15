@@ -479,7 +479,7 @@ left body{
 
 left text{
   text-shadow: 2px 2px #000000;
-  font-size: 21px;
+  font-size: 10px;
   font-family: 'Cabin Condensed', sans-serif;
 }
 .svg{font-weight:bold;max-width:700px;height:40%;}
