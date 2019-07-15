@@ -129,9 +129,8 @@ left svg {
 }
 
 .center {
-    margin: 140px 25px 70px;
-    
-    padding: 10px 50px;
+    margin: -10px 0px -30px;
+    padding: 50px 100px;
     text-align: center;
     font-size: 14px;
     font-family: "Arial";
@@ -139,7 +138,7 @@ left svg {
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 100%;
+    height: 120%;
 }
 
 .title {
@@ -262,16 +261,16 @@ img {
 
 .bottom-contain {
 	background: #fff;
-	padding-top: 140px;
+	padding-top: 100px;
 	overflow: hidden
 }
 
 .newsletter {
-	-webkit-transform: rotate(-1.5deg);
-	-moz-transform: rotate(-1.5deg);
-	-o-transform: rotate(-1.5deg);
-	-ms-transform: rotate(-1.5deg);
-	transform: rotate(-1.5deg);
+	-webkit-transform: rotate(-0.5deg);
+	-moz-transform: rotate(-0.5deg);
+	-o-transform: rotate(-0.5deg);
+	-ms-transform: rotate(-0.5deg);
+	transform: rotate(-0.5deg);
 background: #5C258D;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -284,11 +283,11 @@ background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, F
 
 .newsletter-inner {
 	margin: 0 50px;
-	-webkit-transform: rotate(1.5deg);
-	-moz-transform: rotate(1.5deg);
-	-o-transform: rotate(1.5deg);
-	-ms-transform: rotate(1.5deg);
-	transform: rotate(1.5deg)
+	-webkit-transform: rotate(0.5deg);
+	-moz-transform: rotate(0.5deg);
+	-o-transform: rotate(0.5deg);
+	-ms-transform: rotate(0.5deg);
+	transform: rotate(0.5deg)
 }
 
 .site-footer-container {
@@ -473,7 +472,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 left body{
   background-size:cover;
   font-family: 'Cabin Condensed', sans-serif;
-  display:in-line;
+  display:inline;
   flex-direction:column;
   justify-content:left;
   align-items:left;
@@ -484,4 +483,4 @@ left text{
   font-size: 21px;
   font-family: 'Cabin Condensed', sans-serif;
 }
-svg{font-weight:bold;max-width:700px;}
+svg{font-weight:bold;max-width:700px;height:40%;}
