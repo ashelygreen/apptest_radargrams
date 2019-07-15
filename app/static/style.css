@@ -461,7 +461,7 @@ right {
 
 .nav-bkgrnd {
   width: 100%;
-  height: 130px;
+  height: 140px;
   background: #000000;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -481,5 +481,7 @@ left body{
 
 left text{
   text-shadow: 2px 2px #000000;
+  font-size: 21px;
+  font-family: 'Cabin Condensed', sans-serif;
 }
-svg{font-weight:bold;max-width:700px;height:auto;}
+svg{font-weight:bold;max-width:700px;height:40%;}
