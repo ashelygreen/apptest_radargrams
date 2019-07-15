@@ -195,6 +195,7 @@ button.analyze-button {
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-size: 13px;
+    margin: 0px 0px 30px 0px;
     color: #FFFFFF;
     box-shadow: 0 9px 18px rgba(0,0,0,0.2);
 }
