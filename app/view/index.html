@@ -5,10 +5,8 @@
   <script src='../static/client.js'></script>
 </head>
 <body>
-
-<nav>
-  <div class="nav-bg"></div>
-    
+  <div class="nav-bkgrnd"></div>
+<right>
     <ul class="social-icons">
         <li><a href="mailto: agreen@bournemouth.ac.uk"><i class="fa fa-envelope"></i></a></li>
         <li><a href="https://twitter.com/ashgreenarchaeo?lang=en"><i class="fa fa-twitter"></i></a></li>
@@ -16,51 +14,35 @@
         <li><a href="https://github.com/ashelygreen"><i class="fa fa-github"></i></a></li>
         <li><a href="https://www.instagram.com/ashgreenarchaeo/?hl=en"><i class="fa fa-instagram"></i></a></li>
         <li><a href="https://bournemouth.academia.edu/AshelyGreen"><i class="fa fa-graduation-cap"></i></a></li>
-    </ul>
+  </ul></right>
 	
-  <nav-logo><link href='https://fonts.googleapis.com/css?family=Cabin+Condensed:700' rel='stylesheet' type='text/css'>
-
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="450px" height="240px" xml:space="preserve">
+<left> <link href='https://fonts.googleapis.com/css?family=Cabin+Condensed:700' rel='stylesheet' type='text/css'> <svg viewbox="0 0 100 20">
   <defs>
-    <pattern id="water" width=".25" height="1.1" patternContentUnits="objectBoundingBox">
-      <path fill="#C0C0C0" d="M0.25,1H0c0,0,0-0.659,0-0.916c0.083-0.303,0.158,0.334,0.25,0C0.25,0.327,0.25,1,0.25,1z"/>
+    <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="5%" stop-color="#ADA996"/>
+      <stop offset="30%" stop-color="#F2F2F2"/>
+      <stop offset="75%" stop-color="#DBDBDB"/>
+      <stop offset="95%" stop-color="#EAEAEA"/>
+    </linearGradient>
+    <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
+      <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)"> 
+        <animateTransform
+            attributeName="transform"
+            begin="0s"
+            dur="1.5s"
+            type="translate"
+            from="0,0"
+            to="40,0"
+            repeatCount="indefinite" />
+      </path>
     </pattern>
-    
-    <text id="text" transform="translate(2,116)" font-family="'Cabin Condensed'" font-size="150">REILIG</text>
-    
-    <mask id="text-mask">
-      <use x="0" y="0" xlink:href="#text" opacity="1" fill="#FFFAFA"/>
-    </mask>
-    
-    <g id="eff">
-      <use x="0" y="0" xlink:href="#text" fill="#FFFAFA"/>
-  
-  <rect class="water-fill" mask="url(#text-mask)" fill="url(#water)" x="-300" y="50" width="1200" height="120" opacity="0.1">
-    <animate attributeType="xml" attributeName="x" from="-300" to="0" repeatCount="indefinite" dur="2s"/>
-  </rect>
-   <rect class="water-fill" mask="url(#text-mask)" fill="url(#water)" y="45" width="1600" height="120" opacity="0.5">
-    <animate attributeType="xml" attributeName="x" from="-400" to="0" repeatCount="indefinite" dur="3s"/>
-  </rect>
-      
-  <rect class="water-fill" mask="url(#text-mask)" fill="url(#water)" y="55" width="800" height="120" opacity="0.75">
-    <animate attributeType="xml" attributeName="x" from="-200" to="0" repeatCount="indefinite" dur="1.4s"/>
-  </rect>
-      <rect class="water-fill" mask="url(#text-mask)" fill="url(#water)" y="55" width="2000" height="120" opacity="0.25">
-    <animate attributeType="xml" attributeName="x" from="-500" to="0" repeatCount="indefinite" dur="2.8s"/>
-  </rect>
-    </g>
   </defs>
- 
-	  <use xlink:href="#eff" opacity="100" style="mix-blend-mode:color-burn"/>
-
+  <text text-anchor="middle" x="30" y="15" font-size="17" fill="url(#wave)"  fill-opacity="2">REILIG</text>
+  <text text-anchor="middle" x="30" y="15" font-size="17" fill="url(#gradient)" fill-opacity="0.3">REILIG</text>
 </svg>
-  </nav-logo>
-  <h1>for radargrams</h1>
-  
-  
-
-</nav>
+ 
+  <h1>for radargrams</h1> 
+</left>
 
 
 <div>
