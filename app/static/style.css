@@ -128,7 +128,7 @@ left svg {
 }
 
 .center {
-    margin: 10px 0px -30px;
+    margin: 0px 0px -30px;
     padding: 50px 100px;
     text-align: center;
     font-size: 14px;
@@ -437,7 +437,7 @@ left {
   font-family: Arial;
 	text-align: center;
 	width: 40%;
-  margin: -136px 0px 0px -10px;
+  margin: -136px 0px 0px -30px;
   color: #fff;
   line-height: 1px;
   display: inline;
