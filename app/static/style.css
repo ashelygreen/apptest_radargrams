@@ -496,7 +496,7 @@ header l{
   font-family: Arial Narrow;
 	text-align: justify;
   
-	width: 60%;
+	width: 50%;
   margin: 50px 30px 0px;
   color: #000000;
   opacity: 100;
@@ -510,7 +510,7 @@ header r {
 	font-size: 15px;
   font-family: Arial;
 	text-align: center;
-  width: 30%;
+  width: 40%;
 	margin: 20px 30px 0px 0px;
   color: #000;
   line-height: 20px;
