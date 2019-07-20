@@ -133,7 +133,7 @@ left svg {
     text-align: center;
     font-size: 16px;
     font-family: "Arial";
-    background-color: #000;
+    background-image: url("../static/backgroundAsset 2.png");
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
