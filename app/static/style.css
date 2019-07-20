@@ -534,7 +534,6 @@ header r {
   line-height: 20px;
   float: right;
   display: inline;
-  outline-style: solid;
 }
 
 
@@ -549,14 +548,4 @@ hr {
   color: #000000;
 }
 
-.c{
-  font-size: 15px;
-  font-family: Arial;
-	text-align: center;
-	width: 60%;
-  margin: 50px 50px 0px;
-  color: #fff;
-  line-height: 24px;
-  display: absolute;
-  float: center;
-}
+
